@@ -25,4 +25,4 @@ services:
     tty: true
     volumes:
       - ./workspace:/projects/workspace
-    command: ["mcp-server-filesystem", "/projects"]
+    command: ["/projects/workspace"]
